@@ -134,7 +134,7 @@ h2{
 @media screen and (width <= 720px) {
     .main-container{
         width: 92vw;
-        height: 95vh;
+        height: inherit;
         flex-direction: column;
     }
     .img-container{
@@ -165,6 +165,6 @@ h2{
 }
 @media (width<= 560px){
     .main-container{
-        height: 96vh;
+        max-height: 100%;
     }
 }
