@@ -4,11 +4,41 @@
     display: flex;
     border-radius: 1rem;
     overflow: hidden;
+    position: relative;
+}
+.cart-add{
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    background: aliceblue;
+}
+.cart-add > h4{
+    font-size: 3rem;
+    color: var(--Very-dark-blue);
+}
+.cart-add > p{
+    font-size: 1.2rem;
+}
+.cart-add > button{
+    outline: none;
+    border: none;
+    padding: 1rem;
+    color: black;
+    font-size: 1.5rem;
+    background: none;
+    position: absolute;
+    top: 0%;
+    right: 0;
 }
 .img-container{
     height: 100%;
     width: 50%;
-    background: green;
 }
 .content-container{
     padding: 2.1rem;
